@@ -10,10 +10,11 @@
 ## Installation
 
 - Install Node >= v12
-- Install Sanity CMS by running `npm install -g @sanity/cli && sanity init`. [Get started](https://www.sanity.io/get-started)
-- login or create a sanity account by following the instructions or by running `sanity login`
-- Setup a default dataset by following the instructions
+- Install Sanity CMS by running `npm install -g @sanity/cli` [Get started](https://www.sanity.io/get-started)
+- login or create a sanity account by running `sanity login`
+- cd into the sanity server directory, aka `cd ./medium20`
+- Inside the directory, run `sanity start` to start the sanity development server locally
+- cd .. out of sanity and into the root directory of the project
 - Run `npm install` to install the dependencies
 - Run `npm run dev` to start the development server locally
-- Run `sanity start` to start the sanity development server locally
 - Go to localhost:3000 to see the app in action!
