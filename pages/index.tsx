@@ -68,6 +68,7 @@ export default function Home({ posts }: Props) {
 }
 
 export const getServerSideProps = async () => {
+  // GROQ query example
   const query = `*[_type=="post"]{
     _id, title, slug, 
    author -> {

@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# Medium Clone using Next.js 12! &nbsp; <img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" alt="next.js" width="22px" height="20px"> <img src="https://avatars.githubusercontent.com/u/17177659?s=280&v=4" alt="next.js" width="22px" height="20px"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="next.js" width="22px" height="20px"> <img src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png" width="22px" height="20px" alt="typescript">
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+- A simple and lightweight clone of Medium.
+- Built with Next.js 12, TailwindCSS 3.0 and TypeScript.
+- Uses Sanity CMS for content management.
+- Uses GROQ for querying content. (GROQ is a query language for JSON documents) :purple_heart: :point_right: [GROQ](https://groq.dev/)
 
-## Preview
+  <img src="https://repository-images.githubusercontent.com/193940239/8099df80-0611-11ea-8d99-c1871815e6d6" alt="groq" width="200px" height="100px">
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Installation
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Install Node >= v12
+- Install Sanity CMS by running `npm install -g @sanity/cli && sanity init`. [Get started](https://www.sanity.io/get-started)
+- login or create a sanity account by following the instructions or by running `sanity login`
+- Setup a default dataset by following the instructions
+- Run `npm install` to install the dependencies
+- Run `npm run dev` to start the development server locally
+- Run `sanity start` to start the sanity development server locally
+- Go to localhost:3000 to see the app in action!
